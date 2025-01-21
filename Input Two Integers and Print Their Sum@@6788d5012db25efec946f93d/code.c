@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(){
+void main(){
     int a,b;
     int sum = 0;
     printf("Enter two integers:");
