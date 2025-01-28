@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main(){
+int main(){
     char a[12];
     char b[14];
     scanf("%s",&a);
