@@ -4,12 +4,15 @@ int main() {
     scanf("%c",&ch);
     if(ch=='a'|| ch=='i' || ch=='e'|| ch=='o' || ch=='u'){
         printf("Vowel");
-        if ((ch>='a' && ch<='z') || (ch>='A' && ch<='Z')) {
-            printf("Digit");
-        }
+    }
+    else if(ch>='A' && ch<='Z' || ch>='a' && ch<='z'){
+        printf("Consonant");
+    }
+    else if (ch>=0 && ch<=9) {
+        printf("Digit");
     }
     else {
-        printf("Consonant");
+        printf("Special Character");
     }
     return 0;
 }
