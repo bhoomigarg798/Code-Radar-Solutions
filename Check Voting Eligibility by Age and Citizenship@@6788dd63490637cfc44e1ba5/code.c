@@ -4,7 +4,7 @@ int main() {
     if ((age>=18) && (status==1)) {
         printf("Eligible");
     }
-    else if (age>=18 && status=0){
+    else if ((age>=18) && (status=0)){
         printf("Not Eligible");
     }
     else{
