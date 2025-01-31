@@ -18,11 +18,11 @@ int main() {
             printf("%d",a/b);
         }
         else {
-            printf("Invalid month");
+            printf("error");
         }
     }
     else {
-        printf("Invalid month");
+        printf("error");
     }
     return 0;
 }
