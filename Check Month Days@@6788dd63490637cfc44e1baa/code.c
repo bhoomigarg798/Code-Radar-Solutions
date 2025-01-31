@@ -35,7 +35,7 @@ int main() {
     else if (day==11){
         printf("30");
     }
-    else id (day==12){
+    else if (day==12){
         printf("31");
     }
     else {
