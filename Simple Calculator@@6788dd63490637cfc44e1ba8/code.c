@@ -15,13 +15,5 @@ int main() {
             printf("d",b-a);
         }
     }
-    else if (op=='/') {
-        if (b!=0) {
-            printf("%d",a/b);
-        }
-        else {
-            printf("Invalid");
-        }
-    }
     return 0;
 }
