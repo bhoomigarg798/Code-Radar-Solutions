@@ -8,7 +8,12 @@ int main() {
         printf("%d",a+b);
     }
     else if (op=='-') {
-        printf("%d",a-b);
+        if (a>b){
+            printf("%d",a-b);
+        }
+        else if (b>a) {
+            printf("d",b-a);
+        }
     }
     else if (op=='*') {
         printf("%d",a*b);
