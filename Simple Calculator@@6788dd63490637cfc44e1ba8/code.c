@@ -5,8 +5,7 @@ int main() {
     scanf("%d" "%d",&a,&b);
     scanf("%c",&op);
     if (op=='+'){
-        result=a+b
-        printf("%d",result);
+        printf("%d",a+b);
     }
     return 0;
 }
