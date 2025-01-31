@@ -2,10 +2,12 @@
 int main() {
     int a,b;
     char op;
+    int result;
     scanf("%d" "%d",&a,&b);
     scanf("%c",&op);
     if (op=='+'){
-        printf("%d",a+b);
+        result=a+b
+        printf("%d",result);
     }
     return 0;
 }
