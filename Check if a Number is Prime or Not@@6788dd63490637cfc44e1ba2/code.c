@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&a);
     for(int i=2;i*i<=a;i++){
         if (a%i!=0){
-            printf("Prime");
+            printf("Prime\n");
         }
         else {
             printf("Not Prime");
