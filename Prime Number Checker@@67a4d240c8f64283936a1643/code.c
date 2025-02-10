@@ -8,6 +8,7 @@ int main() {
         scanf("%d",&num);
         printf("%d\n",isPrime(num));
     }
+    return 0;
 int isPrime(num) {
     for(int i=2;i*i<=num;i++){
         if (num%i!=0) {
