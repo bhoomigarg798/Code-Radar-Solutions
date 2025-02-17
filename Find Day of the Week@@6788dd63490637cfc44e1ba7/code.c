@@ -24,6 +24,8 @@ int main() {
         case (day==7):
             printf("Sunday");
             break;
+        default:
+            printf("Invalid");
         return 0;
     }
 }
