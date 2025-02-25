@@ -6,4 +6,4 @@ int main() {
         printf("%d",N);
     }
     return 0;
-}...
+}
