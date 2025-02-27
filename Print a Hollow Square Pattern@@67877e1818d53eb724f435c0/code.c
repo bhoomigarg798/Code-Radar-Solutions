@@ -8,7 +8,7 @@ int main() {
         for (int j = 0; j < n; j++) {  // Loop for columns
             // Print '*' at the borders, otherwise print space
             if (i == 0 || i == n - 1 || j == 0 || j == n - 1)
-                printf("* ");
+                printf("*");
             else
                 printf("  ");
         }
