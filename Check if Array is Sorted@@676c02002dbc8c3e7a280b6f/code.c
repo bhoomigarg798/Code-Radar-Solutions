@@ -12,12 +12,12 @@ int main() {
             issorted=0;
             break;
         }
+    }
     if (issorted) {
         printf("Sorted");
     }
     else {
         printf("Not Sorted");
-    }
     }
     return 0;
 }
