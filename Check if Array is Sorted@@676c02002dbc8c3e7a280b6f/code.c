@@ -6,15 +6,11 @@ int main() {
     int issorted=1;
     for (int i=0;i<=N;i++) {
         if (arr[i]>arr[i+1]) {
-            issorted=0;
+            printf("Not Sorted");
             break;
         }
-    if (issorted) {
-        printf("Sorted");
-    }
-    else {
-        printf("Not Sorted");
-    }
-    }
+        else {
+            printf("sorted");
+        }
     return 0;
 }
