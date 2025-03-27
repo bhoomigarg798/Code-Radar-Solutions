@@ -6,9 +6,6 @@ int main() {
         for (int j=1;j<=N;j++) {
             printf("%d",j);
         }
-        for (int k=i;k<=i;k++) {
-            printf("%d",k);
-        }
         printf("\n");
     }
     return 0;
