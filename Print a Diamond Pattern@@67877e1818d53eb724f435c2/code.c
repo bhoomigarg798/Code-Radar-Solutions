@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &N);
 
     if (N % 2 == 0) {
-        return 1; // Exit if the input is even
+        return 1; // Exit if input is even
     }
 
     // Upper half
@@ -32,3 +32,4 @@ int main() {
 
     return 0;
 }
+
