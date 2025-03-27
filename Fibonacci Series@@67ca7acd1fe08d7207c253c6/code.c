@@ -2,6 +2,7 @@
 int fibonacciSeries (int n) {
     if (n==1) {
         printf("%d",0);
+        return;
     }
     int a=0;
     int b=1;
