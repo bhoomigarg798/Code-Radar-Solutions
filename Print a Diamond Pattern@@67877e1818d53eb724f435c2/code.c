@@ -4,10 +4,6 @@ int main() {
     int N;
     scanf("%d", &N);
 
-    if (N % 2 == 0) {
-        return 1; // Exit if input is even
-    }
-
     // Upper half
     for (int i = 1; i <= N; i++) {
         for (int j = 0; j < N - i; j++) {
