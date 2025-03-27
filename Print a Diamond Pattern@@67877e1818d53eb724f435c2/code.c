@@ -1,28 +1,33 @@
 #include <stdio.h>
+
 int main() {
     int N;
-    scanf("%d",&N);
-    if (N%2==0) {
-        return 1;
+    scanf("%d", &N);
+
+    if (N % 2 == 0) {
+        return 1; // Exit if the input is even
     }
-    for (int i=1;i<=N;i+=2) {
-        for (int j= 0 ; j<(N-i)/2 ; j++) {
+
+    // Upper half
+    for (int i = 1; i <= N; i += 2) {
+        for (int j = 0; j < (N - i) / 2; j++) {
             printf(" ");
         }
-        for (int j=0 ; j<i ; j++) {
+        for (int j = 0; j < i; j++) {
             printf("*");
         }
         printf("\n");
     }
 
-    for (int i=N-2; i>=1 ; i-=2){
+    // Lower half
+    for (int i = N - 2; i >= 1; i -= 2) {
         for (int j = 0; j < (N - i) / 2; j++) {
             printf(" ");
+        }
         for (int j = 0; j < i; j++) {
             printf("*");
-        printf("\n");
-    }
         }
+        printf("\n");
     }
 
     return 0;
