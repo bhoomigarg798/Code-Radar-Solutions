@@ -6,7 +6,7 @@ int main() {
         return 1;
     }
     for (int i=1;i<=N;i+=2) {
-        for (int j= 0 ; j<(n-i)/2 ; j++) {
+        for (int j= 0 ; j<(N-i)/2 ; j++) {
             printf(" ");
         }
         for (int j=0 ; j<i ; j++) {
