@@ -1,7 +1,7 @@
 #include <stdio.h>
 void selectionSort(char arr[],int n) {
     for (int i=0;i<n-1;i++) {
-        char min = i;
+        int min = i;
         for (int j=i+1;j<n;j++) {
             if (arr[min]>arr[j]) {
                 min = j;
@@ -17,6 +17,6 @@ void selectionSort(char arr[],int n) {
 
 void printArray(char arr[],int n) {
     for (int i=0;i<n;i++) {
-        printf("%d",arr[i]);
+        printf("%c ",arr[i]);
     }
 }
