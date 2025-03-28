@@ -15,7 +15,7 @@ int main() {
             }
         }
     }
-    if (sizeof(arr[N])<=3) {
+    if (sizeof(arr[N])<=2) {
         printf("-1");
     }
     int result = arr[0];
