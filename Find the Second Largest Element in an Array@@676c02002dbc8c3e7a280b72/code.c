@@ -15,7 +15,15 @@ int main() {
             }
         }
     }
-     printf("%d",arr[N-2]);
+    int secondLargest = -1;
+    for (int i = N - 2; i >= 0; i--) {  // Start from second last element
+        if (arr[i] < arr[N - 1]) {  // Find first smaller unique number
+            secondLargest = arr[i];
+            break;
+        }
+    }
+
+    printf("%d\n", secondLargest);
     return 0;
 
 
