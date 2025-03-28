@@ -16,7 +16,7 @@ int main() {
         }
     }
     for (int i=0;i<N;i++) {
-        printf("%d",arr[n-2]);
+        printf("%d",arr[N-2]);
     }
     return 0;
 
