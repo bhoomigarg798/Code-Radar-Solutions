@@ -7,10 +7,10 @@ int main() {
         scanf("%d",&arr[i]);
     }
     if (arr[0]==arr[N-1]) {
-        printf("Yes");
+        printf("YES");
     }
     else {
-        printf("No");
+        printf("NO");
     }
     return 0;
 }
