@@ -9,4 +9,4 @@ void isPrime(num) {
         }
     }
 }
- return 0;
+
