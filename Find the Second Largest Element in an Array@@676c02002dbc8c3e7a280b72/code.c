@@ -15,12 +15,7 @@ int main() {
             }
         }
     }
-    if (N>=2) {
         printf("%d",arr[N-2]);
-    }
-    else {
-        printf("-1");
-    }
     return 0;
 
 
