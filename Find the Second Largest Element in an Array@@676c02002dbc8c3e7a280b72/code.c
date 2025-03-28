@@ -15,16 +15,7 @@ int main() {
             }
         }
     }
-    if (sizeof(arr[N])<=2) {
-        printf("-1");
-    }
-    int result = arr[0];
-    for (int i=0;i<N-1;i++) {
-        if (arr[i]>result) {
-            result = arr[i];
-        }
-    }
-    printf("%d",result);
+    printf("%d",arr[N-1]);
     return 0;
 
 
