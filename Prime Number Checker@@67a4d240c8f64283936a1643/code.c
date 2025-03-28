@@ -6,6 +6,5 @@ int isPrime(int num) {
         }
     }
     printf("0\n");
-    return 0;
 }
 
