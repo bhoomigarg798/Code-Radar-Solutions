@@ -15,6 +15,9 @@ int main() {
             }
         }
     }
+    if (sizeof(arr[N])<=3) {
+        printf("-1");
+    }
     int result = arr[0];
     for (int i=0;i<N-1;i++) {
         if (arr[i]>result) {
