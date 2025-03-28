@@ -13,6 +13,7 @@ int main() {
         if (arr[i]==T) {
             printf("%d",i);
             found =1;
+            return 0;
         }
     }
     if (!found) {
