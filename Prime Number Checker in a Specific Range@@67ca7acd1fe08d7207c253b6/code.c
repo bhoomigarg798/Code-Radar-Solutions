@@ -13,8 +13,6 @@ int isPrime(int num) {
 // Function to print all prime numbers in a given range
 void printPrimesInRange(int a, int b) {
     int found = 0; // Flag to check if any prime numbers were found
-
-    printf("Prime numbers between %d and %d: ", a, b);
     for (int i = a; i <= b; i++) {
         if (isPrime(i)) {
             printf("%d ", i);
