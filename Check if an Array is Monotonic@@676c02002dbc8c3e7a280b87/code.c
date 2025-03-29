@@ -8,7 +8,7 @@ int main() {
     }
     int increasing = 0;
     int decreasing = 0;
-    for (int i=0;i<N;i++) {
+    for (int i=0;i<N-1;i++) {
         if (arr[i]<=arr[i+1]) {
             increasing = 1;
         }
