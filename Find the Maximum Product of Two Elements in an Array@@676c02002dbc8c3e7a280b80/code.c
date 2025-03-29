@@ -6,7 +6,7 @@ int main() {
     for (int i=0;i<N;i++) {
         scanf("%%d",&arr[i]);
     }
-    for (int i=0;i<N-1;i++) {
+    for (int i=0;i<N;i++) {
         for (int j=0;j<N-i-1;j++) {
             if (arr[j]>arr[j+1]) {
                 int temp = arr[j];
@@ -15,6 +15,6 @@ int main() {
             }
         }
     }
-    printf("%d",arr[N-1]*arr[N-2]);
+    printf("%d",arr[N-1]);
     return 0;
 }
