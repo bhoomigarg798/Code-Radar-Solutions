@@ -22,5 +22,8 @@ int main() {
     else if(decreasing) {
         printf("NO");
     }
+    else {
+        printf("NO");
+    }
     return 0;
 }
