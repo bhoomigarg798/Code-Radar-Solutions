@@ -4,7 +4,7 @@ int main() {
     scanf("%d",&N);
     int arr[N];
     for (int i=0;i<N;i++) {
-        scanf("%%d",&arr[i]);
+        scanf("%d",&arr[i]);
     }
     for (int i=0;i<N;i++) {
         for (int j=0;j<N-i-1;j++) {
@@ -15,6 +15,6 @@ int main() {
             }
         }
     }
-    printf("%d",*arr[N-1]);
+    printf("%d",arr[N-1]*arr[N-2]);
     return 0;
 }
