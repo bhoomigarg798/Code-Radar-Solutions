@@ -1,5 +1,5 @@
 #include <stdio.h>
-void isprime(int num) {
+int isprime(int num) {
     if (num<2) {
         return 0;
     }
@@ -20,7 +20,7 @@ int main() {
     }
     for (int i=0;i<N;i++) {
         if (isprime(arr[i])) {
-            count +=1
+            count +=1;
         }
         continue;
     }
