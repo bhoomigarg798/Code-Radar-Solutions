@@ -6,15 +6,21 @@ int main() {
     for (int i=0;i<N;i++) {
         scanf("%d",&arr[i]);
     }
+    int increasing = 0;
+    int decreasing = 0;
     for (int i=0;i<N;i++) {
-        for (int j=0;j<N-i-1;j++) {
-            if ((arr[j]<=arr[j+1]) || (arr[j]>=arr[j+1])) {
-                printf("YES");
-            }
-            else {
-                printf("NO");
-            }
+        if (arr[i]<=arr[i+1]) {
+            increasing = 1;
         }
+        else if(arr[i]>=arr[i+1]) {
+            decreasing = 1;
+        }
+    }
+    if (increasing) {
+        printf("YES");
+    }
+    else if(decreasing) {
+        printf("NO");
     }
     return 0;
 }
