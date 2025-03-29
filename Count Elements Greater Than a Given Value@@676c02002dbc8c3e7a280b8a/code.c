@@ -11,6 +11,9 @@ int main() {
         if (arr[i]>K) {
             count +=1;
         }
+        else {
+            continue;
+        }
     }
     printf("%d",count);
     return 0;
