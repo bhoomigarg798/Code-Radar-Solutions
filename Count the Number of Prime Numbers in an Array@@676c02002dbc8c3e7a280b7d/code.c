@@ -12,10 +12,8 @@ int main() {
             if (i%j==0) {
                 continue;
             }
-            else {
-                count+=1;
-            }
         }
+        count+=1
     }
     printf("%d",count);
     return 0;
