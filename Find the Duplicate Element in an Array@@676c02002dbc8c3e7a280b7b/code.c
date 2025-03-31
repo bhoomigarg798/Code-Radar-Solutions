@@ -10,12 +10,13 @@ int main() {
     for (int i=0;i<N;i++) {
         freq[arr[i]]++;
     }
-    int result = freq[arr[0]];
+    int result = 0;
+    int mostfreq = 0;
     for (int i=0;i<N;i++) {
         if (freq[arr[i]] > result) {
-            result = arr[i];
+            mostfreq = arr[i];
         }
     }
-    printf("%d",result);
+    printf("%d",mostfreq);
     return 0;
 }
