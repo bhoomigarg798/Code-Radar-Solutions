@@ -10,7 +10,7 @@ int main() {
     for (int i=0;i<N;i++) {
         freq[arr[i]]++;
     }
-    int result = freq[arr[0]];
+    int result = 0;
     for (int i=1;i<N;i++) {
         if (freq[arr[i]] > result) {
             result = freq[arr[i]];
