@@ -10,8 +10,8 @@ int main() {
     for (int i=0;i<N;i++) {
         freq[arr[i]]++;
     }
-    for (int i=0;i<101;i++) {
-        if (freq[i]>0) {
+    for (int i=0;i<N;i++) {
+        if (freq[arr[i]]>0) {
             printf("%d %d\n",i,freq[i]);
         }
         else {
