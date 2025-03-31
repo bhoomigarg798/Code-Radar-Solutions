@@ -14,9 +14,6 @@ int main() {
         if (freq[i]>0) {
             printf("%d %d\n",i,freq[i]);
         }
-        else {
-            continue;
-        }
     }
     return 0;
 }
