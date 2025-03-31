@@ -15,7 +15,6 @@ int main() {
         if (freq[i]>max) {
             max = freq[i];
         }
-        printf("-1");
     }
     printf("%d",max);
     return 0;
