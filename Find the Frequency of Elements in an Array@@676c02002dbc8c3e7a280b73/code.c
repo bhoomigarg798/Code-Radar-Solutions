@@ -6,11 +6,11 @@ int main() {
     for (int i=0;i<N;i++) {
         scanf("%d",&arr[i]);
     }
-    int freq[100] = {0};
+    int freq[101] = {0};
     for (int i=0;i<N;i++) {
         freq[arr[i]]++;
     }
-    for (int i=0;i<100;i++) {
+    for (int i=0;i<101;i++) {
         if (freq[i]>0) {
             printf("%d %d\n",i,freq[i]);
         }
