@@ -13,7 +13,7 @@ int main() {
     int max = freq[arr[0]];
     for (int i=0;i<N;i++) {
         if (freq[arr[i]]>max) {
-            max = arr[i];
+            max = freq[i];
         }
     }
     printf("%d",max);
