@@ -9,8 +9,8 @@ int main() {
     int freq[100] = {0};
     int max = freq[arr[0]];
     for (int i=0;i<N;i++) {
-        if (freq[i]>max) {
-            max = freq[i];
+        if (freq[arr[i]]>max) {
+            max = freq[arr[i]];
         }
     }
     printf("%d",max);
