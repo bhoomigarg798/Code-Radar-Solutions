@@ -13,7 +13,7 @@ int main() {
     int result = 0;
     for (int i=0;i<N;i++) {
         if (freq[arr[i]] > result) {
-            result = freq[arr[i]];
+            result = arr[i];
         }
     }
     printf("%d",result);
