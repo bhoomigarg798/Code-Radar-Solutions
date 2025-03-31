@@ -16,7 +16,7 @@ int main() {
     }
 
     // Lower half
-    for (int i = N - 1; i >= 1; i--) {
+    for (int i = N ; i >= 1; i--) {
         for (int j = 0; j < N - i; j++) {
             printf(" "); // Print leading spaces
         }
