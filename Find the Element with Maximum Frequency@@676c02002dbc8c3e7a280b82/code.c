@@ -13,7 +13,7 @@ int main() {
     int maxfreq = 0;
     int result = 0;
     for (int i=0;i<N;i++) {
-        if (freq[arr[i]]>maxfreq) {
+        if (freq[arr[i]] > maxfreq) {
             maxfreq = freq[arr[i]];
             result = arr[i];
         }
