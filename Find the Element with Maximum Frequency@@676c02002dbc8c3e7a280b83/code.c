@@ -7,6 +7,9 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int freq[100] = {0};
+    for (int i=0;i<N;i++) {
+        freq[arr[i]]++;
+    }
     int max = freq[arr[0]];
     for (int i=0;i<N;i++) {
         if (freq[arr[i]]>max) {
