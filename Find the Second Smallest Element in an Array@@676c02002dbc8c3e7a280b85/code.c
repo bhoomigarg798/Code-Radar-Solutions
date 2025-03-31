@@ -8,7 +8,7 @@ int main() {
     }
     int min = -10;
     for (int i=0;i<N;i++) {
-        if (min>arr[i]) {
+        if (arr[i]<min) {
             min = arr[i];
         }
     }
