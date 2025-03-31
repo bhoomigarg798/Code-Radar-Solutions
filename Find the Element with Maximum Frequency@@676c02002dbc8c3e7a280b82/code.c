@@ -4,9 +4,9 @@ int main() {
     scanf("%d",&N);
     int arr[N];
     for (int i=0;i<N;i++) {
-        scanf("%d",&N);
+        scanf("%d",&i);
     }
-    int freq = {0};
+    int freq[100] = {0};
     for (int i=0;i<N;i++) {
         freq[arr[i]]++;
     }
