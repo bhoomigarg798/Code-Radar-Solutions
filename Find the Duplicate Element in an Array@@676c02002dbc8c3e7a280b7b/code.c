@@ -11,7 +11,7 @@ int main() {
         freq[arr[i]]++;
     }
     int result = 0;
-    for (int i=1;i<N;i++) {
+    for (int i=0;i<N;i++) {
         if (freq[arr[i]] > result) {
             result = freq[arr[i]];
         }
