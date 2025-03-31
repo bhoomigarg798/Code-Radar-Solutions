@@ -14,6 +14,7 @@ int main() {
     int mostfreq = 0;
     for (int i=0;i<N;i++) {
         if (freq[arr[i]] > result) {
+            result = freq[arr[i]];
             mostfreq = arr[i];
         }
     }
