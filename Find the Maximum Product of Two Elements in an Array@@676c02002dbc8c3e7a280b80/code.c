@@ -17,7 +17,7 @@ int main() {
     }
     for (int i=0;i<N;i++) {
         if (i<0) {
-            printf("%d",arr[0]*arr[1]);
+            printf("%d",arr[N-1]*arr[N-2]);
         }
         else {
             continue;
