@@ -8,7 +8,7 @@ int main() {
     }
     int smallest = arr[0];
     int secondsmallest = -1;
-    for (int i=0;i<N;i++) {
+    for (int i=1;i<N;i++) {
         if (arr[i]<smallest) {
             secondsmallest = smallest;
             smallest = arr[i];
