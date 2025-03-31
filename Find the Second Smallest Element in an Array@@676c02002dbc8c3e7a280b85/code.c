@@ -13,7 +13,7 @@ int main() {
             secondsmallest = smallest;
             smallest = arr[i];
         }
-        else if (arr[i]>smallest || (secondsmallest == -1 || arr[i]< secondsmallest)) {
+        else if (arr[i]>smallest && (secondsmallest == -1 || arr[i]< secondsmallest)) {
             secondsmallest = arr[i];
         }
     }
