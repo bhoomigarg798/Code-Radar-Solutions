@@ -18,7 +18,7 @@ int main() {
             majorityelement = arr[i];
         }
     }
-    if (mostfreq>=N/2) {
+    if (mostfreq>N/2) {
         printf("%d",majorityelement);
     }
     else {
