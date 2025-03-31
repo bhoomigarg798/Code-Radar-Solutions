@@ -6,11 +6,11 @@ int main() {
     for (int i=0;i<N;i++) {
         scanf("%d",&arr[i]);
     }
-    int freq[100];
+    int freq[100] = {0};
     for (int i=0;i<N;i++) {
         freq[arr[i]]++;
     }
-    int max[] = freq[arr[0]];
+    int max = freq[arr[0]];
     for (int i=0;i<N;i++) {
         if (max<freq[arr[i]]) {
             max = freq[arr[i]];
