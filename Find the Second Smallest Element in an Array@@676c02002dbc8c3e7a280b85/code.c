@@ -6,15 +6,23 @@ int main() {
     for (int i=0;i<N;i++) {
         scanf("%d",&arr[i]);
     }
-    int min = arr[0];
+    int smallest = arr[0];
+    int secondsmallest = -1;
     for (int i=0;i<N;i++) {
-        if (arr[i]<min) {
-            min = arr[i];
+        if (arr[i]<smallest) {
+            secondsmallest = smallest;
+            smallest = arr[i];
+        }
+        else if (arr[i]>smallest || (secondsmallest = -1 || arr[i]<secondsmallest)) {
+            secondsmallest = arr[i];
         }
     }
-    printf("%d",min);
+    if (secondsmallest!=-1) {
+        printf("%d",secondsmallest);
+    }
+    else {
+        printf("-1");
+    }
     return 0;
-
-
 
 }
