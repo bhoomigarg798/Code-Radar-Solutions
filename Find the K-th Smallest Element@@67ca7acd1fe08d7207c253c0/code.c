@@ -10,8 +10,14 @@ void selectionSort(int arr[],int n){
         }
     }
 }
+
 int kthSmallest(int arr[],int n,int K){
     selectionSort(arr,n);
-    return arr[K-1];
+    if (K<n) {
+        return arr[K-1];
+    }
+    else {
+        return -1;
+    }
 }
     
