@@ -20,7 +20,7 @@ int main() {
 
         arr[0] = last; // Move last element to first position
     }
-    for (int i=0;i<N;i++) {
+    for (int i=0;i<n;i++) {
         printf("%d",arr[i]);
     }
     return 0;
