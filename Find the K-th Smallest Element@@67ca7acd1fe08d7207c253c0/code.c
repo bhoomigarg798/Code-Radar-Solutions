@@ -11,10 +11,7 @@ void selectionSort(int arr[],int n){
     }
 }
 int kthSmallest(int arr[],int n,int K){
-    for (int i=0;i<n;i++) {
-        printf("%d",arr[i-K]);
-        }
-    return 0;
-
-    }
+    selectionSort(arr,n);
+    return arr[K-1];
+}
     
