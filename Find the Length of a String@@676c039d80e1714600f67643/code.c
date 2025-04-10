@@ -6,6 +6,6 @@ int main() {
     for (int i=0; s[i]!='\0';i++) {
         count+=1;
     }
-    printf("%d",counnt);
+    printf("%d",count);
     return 0;
 }
