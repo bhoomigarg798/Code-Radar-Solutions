@@ -1,15 +1,13 @@
 #include <stdio.h>
-#include <string.h>
-int counting(char s[]);
+void counting(char s[]);
 int main() {
     char s[100];
     scanf("%s",s);
-    int length = strlen(s);
     counting(s);
     return 0;
 
 }
-int counting(char s[]) {
+void counting(char s[]) {
     int count = 0;
     for (int i=0;s[i]!='\0';i++) {
         char ch = s[i];
