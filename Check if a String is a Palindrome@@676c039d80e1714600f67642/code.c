@@ -4,7 +4,7 @@ int main() {
     char s[100];
     scanf("%s",s);
     int length = strlen(s);
-    if (s[0] == s[len-1]) {
+    if (s[0] == s[length-1]) {
         printf("Yes");
     }
     else {
