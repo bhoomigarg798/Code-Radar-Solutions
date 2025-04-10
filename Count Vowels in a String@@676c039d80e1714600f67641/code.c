@@ -12,11 +12,9 @@ int main() {
 int counting(char s[]) {
     int count = 0;
     for (int i=0;i!='\0';i++) {
-        if (i == 'a' || i=='e' || i=='i' || i=='o' || i=='u') {
-            count+=1;
-        }
-        else {
-            continue;
+        char ch = s[i];
+        if ((ch =='a' || ch='e' || ch=='i' || ch='o' || ch =='u') ||(ch ='A' || ch='E' || ch='I' || ch ='O' || ch='U')) {
+            count++;
         }
     }
     printf("%d",count);
