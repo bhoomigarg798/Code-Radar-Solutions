@@ -9,7 +9,7 @@ void reversstribg(char arr[]) {
 int main() {
     char s[100];
     scanf("%s",s);
-    reversstribg(s[]);
+    reversstribg(s);
     return 0;
 
 }
