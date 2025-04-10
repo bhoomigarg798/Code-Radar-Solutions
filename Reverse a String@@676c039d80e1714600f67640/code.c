@@ -7,7 +7,7 @@ void reversstribg(char arr[]) {
     }
 }
 int main() {
-    char s[];
+    char s[100];
     scanf("%s",s);
     reversstribg(s[]);
     return 0;
