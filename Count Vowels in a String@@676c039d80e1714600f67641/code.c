@@ -4,6 +4,7 @@ int main() {
     char s[100];
     scanf("%s",&s);
     int length = strlen(s);
+    counting(s);
     return 0;
 
 }
