@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+int counting(char s[]);
 int main() {
     char s[100];
-    scanf("%s",&s);
+    scanf("%s",s);
     int length = strlen(s);
     counting(s);
     return 0;
