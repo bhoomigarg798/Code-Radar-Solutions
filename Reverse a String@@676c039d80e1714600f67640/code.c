@@ -3,7 +3,7 @@
 void reversstribg(char arr[]) {
     int len = strlen(arr);
     for (int i=len -1;i>=0;i--) {
-        printf("%s",arr[i])
+        printf("%s",i)
     }
 }
 int main() {
