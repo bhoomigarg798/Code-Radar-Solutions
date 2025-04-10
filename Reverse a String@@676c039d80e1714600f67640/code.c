@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include <string.h>
 void reversstribg(char arr[]) {
-    for (int arr[i]!='\0';i>0;i--) {
+    int len = strlen(arr);
+    for (int arr[i] = len -1;i>=0;i--) {
         printf("%s",arr[i])
     }
 }
