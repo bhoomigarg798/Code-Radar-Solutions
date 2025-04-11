@@ -5,7 +5,7 @@ int main() {
     fgets(s,100,stdin);
     int len = strlen(s);
     int count = 0;
-    for (int i=0;i<len;i++) {
+    for (int i=0;s[i]!='\0';i++) {
         count++;
     }
     printf("%d",count);
